@@ -1,0 +1,41 @@
+:root {
+    --dark-green: #5DA0A2;
+    --red: #A25D5D;
+    --blue: #5D7FA2;
+    --soft-green: #5DA285;
+    --pink: #A25D9F;
+    --yellow: #A29F5D;
+    --white: #F5F5F5;
+    --black: #333333;
+}
+
+body {
+    background-color: var(--dark-green);
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+}
+
+h1,
+h4,
+label {
+    color: var(--white);
+}
+
+a {
+    color: var(--red);
+    font-weight: 700;
+}
+
+.login,
+.login:hover {
+    background-color: var(--red);
+    border-color: var(--red)
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
